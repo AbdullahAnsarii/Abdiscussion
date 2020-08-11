@@ -49,11 +49,3 @@ class chatRoom {
 
     }
 }
-let chatroom = new chatRoom('general', 'abdullah');
-chatroom.getChats(data => console.log(data));
-
-setTimeout(()=>{
-    chatroom.updateName('sanafatima');
-    chatroom.updateRoom('gaming');
-    chatroom.getChats(data => console.log(data));
-}, 3000)
