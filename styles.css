@@ -10,3 +10,16 @@
   .btn:focus{
     outline: none !important;
   }
+  .username{
+    font-weight: bold;
+    font-size: larger;
+  }
+  .time{
+    font-size: small;
+    color: gray;
+    font-style: italic;
+  }
+  .update-msg{
+    text-align: center;
+    margin: 20px auto;
+  }

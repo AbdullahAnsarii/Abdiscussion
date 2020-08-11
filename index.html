@@ -30,7 +30,7 @@
         <div class="input-group-prepend">
           <div class="input-group-text">Your message:</div>
         </div>
-        <input type="text" id="message" class="form-control" required>
+        <input type="text" id="message" class="form-control" required autocomplete="off">
         <div class="input-group-append">
           <input type="submit" class="btn" value="send">
         </div>
@@ -42,7 +42,7 @@
         <div class="input-group-prepend">
           <div class="input-group-text">Update name:</div>
         </div>
-        <input type="text" id="name" class="form-control" required>
+        <input type="text" id="name" class="form-control" required autocomplete="off">
         <div class="input-group-append">
           <input type="submit" class="btn" value="update">
         </div>
@@ -50,6 +50,7 @@
       <div class="update-msg"></div>
     </form>
   </div>
+    <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
 

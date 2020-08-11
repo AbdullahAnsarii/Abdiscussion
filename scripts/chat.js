@@ -4,6 +4,7 @@
 //updating the room
 //where is used when we have to give a condition to take out data from firebase
 //orderBy orders the data accesing according to your given parameter
+//dochanges() brings all the changes in an array that occurs for each snapshot
 class chatRoom {
     constructor(room, username){
         this.room = room;
