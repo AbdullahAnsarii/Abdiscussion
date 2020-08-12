@@ -5,6 +5,9 @@ class UIClass {
     constructor(list){
         this.list = list
     }
+    clear(){
+        this.list.innerHTML = '';
+    }
     render(data){
         let when = dateFns.distanceInWordsToNow(
             data.created_at.toDate(), {addSuffix: true}
