@@ -19,12 +19,16 @@
     color: gray;
     font-style: italic;
   }
+  .list-group-items{
+    border: 2px ridge #ccc;
+  }
   .update-msg{
     text-align: center;
     margin: 20px auto;
   }
   .room-identifier{
     padding: 5px;
+    width: 10px;
     font-size: 16px;
     border-width: 0px;
     border-color: #CCCCCC;
